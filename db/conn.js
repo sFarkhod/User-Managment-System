@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+require("dotenv").config()
 
-const DB = process.env.DATABASE
+const DB = process.env.DB_API_KEY;
 
 
 mongoose.connect(DB,{

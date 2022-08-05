@@ -10,27 +10,29 @@ const userSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    age: {
+    password : {
         type: String,
         required: true
     },
-    mobile: {
-        type: Number,
-        required: true
+    lastLogin: {
+        type: Date,
+        default: Date.now
+        // required: true
     },
-    work: {
-        type: String,
-        required: true
+    registrationTime: {
+        type: Date,
+        default: Date.now
     },
-    add: {
+    statusUser: {
         type: String,
-        required: true
-    },
-    desc: {
-        type: String,
-        required: true
+        ref: 'Role'
     }
 });
+
+
+
+// userSchema.remove({'_id':{'$in':["62ea2b91f436d15f32744bd2", "62ea2ba8f436d15f32744bd6"]}})
+
 
 const users = new mongoose.model("users",userSchema);
 

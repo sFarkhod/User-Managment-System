@@ -1,0 +1,43 @@
+.custom-height {
+    position: relative;
+    right: 100px;
+    height: 500px;
+}
+
+.img-fluid {
+    margin-top: 40px;
+}
+
+.custom-control {
+    width: 330px;
+}
+
+.custom-btn-login {
+    width: 330px;
+}
+
+.custom-space {
+    text-align: center;
+    margin-right: -90px;
+}
+
+.rightGo {
+    position: relative;
+    left: 160px;
+}
+
+.bg-glass {
+    margin-top: -40px;
+}
+
+.custom-shape {
+    /* left: -50px; */
+    display: none;
+}
+
+.custom-error-login {
+    font-size: small;
+    color: red;
+    position: relative;
+    left: 32px;
+}

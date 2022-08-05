@@ -1,0 +1,26 @@
+.custom-design-for-registersss {
+    position: absolute;
+    height: 290px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    top: 180px;
+    left: 100px;
+}
+
+.button-for-registersss { 
+    position: relative;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+
+.navlink-custom-for-add {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navlink-custom-for-add:hover {
+    color: black;
+
+}
